@@ -11,6 +11,8 @@ const Layout = ({children}: LayoutProps) => {
         <>
             {/* HEADER */}
             <Header />
+
+
             {children}
 
 
