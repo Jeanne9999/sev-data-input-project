@@ -12,8 +12,9 @@ const Layout = ({children}: LayoutProps) => {
             {/* HEADER */}
             <Header />
 
-
+<div className="container mx-auto min-h-[92vh] pt-24">
             {children}
+</div>
 
 
             {/* FOOTER */}
