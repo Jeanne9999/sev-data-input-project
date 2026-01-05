@@ -1,4 +1,5 @@
-Data Entry- Age Calculator App 🎂
+Data Entry - Age Calculator App 🎂
+
 Μια απλή και λειτουργική εφαρμογή κατασκευασμένη με React, TypeScript και Tailwind CSS. Ο χρήστης εισάγει το όνομά του 
 και την ημερομηνία γέννησής του, και η εφαρμογή υπολογίζει και εμφανίζει την τρέχουσα ηλικία του με ένα φιλικό μήνυμα.
 
@@ -29,7 +30,7 @@ Git/GitHub - Version control
 
 Bash
 
-git clone https://github.com/το-username-σου/το-repo-σου.git
+git clone https://github.com/Jeanne9999/sev-data-input-project.git
 cd το-repo-σου
 Εγκατάσταση εξαρτήσεων (dependencies):
 
