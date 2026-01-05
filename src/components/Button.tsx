@@ -1,23 +1,21 @@
 type ButtonProps = {
     label: string;
-    onClick: () => void;
     disabled?: boolean;
+    onClick: () => void;
     addClass?: string;
 }
 
-
-const Button = ({label, onClick, disabled=false, addClass="bg-my-blue"}: ButtonProps) => {
+const Button = ({label, disabled=false, onClick, addClass= ""}: ButtonProps) => {
 
     return (
         <>
             <button
-                className={"disabled:bg-cyan-800 text-white px-4 py-2 " + addClass}
+                className={" " + addClass}
                 onClick={onClick}
                 disabled={disabled}
             >
                 {label}
             </button>
-
         </>
     )
 }
